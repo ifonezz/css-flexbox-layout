@@ -1,1 +1,52 @@
 /* Start coding here */
+.wrapper {
+     display: flex;
+     flex-direction: column;
+     gap: 2px;
+     flex: 1;
+     text-align: center;
+}
+
+.content-body {
+     display: flex;
+     flex-direction: row;
+     gap: 2px;
+     flex: 1;
+     height: 600px;
+     text-align: center;
+}
+
+header {
+     background-color: darkcyan;
+     text-align: center;
+     height: 70px;
+     width: 100%;
+     text-align: center;
+}
+
+nav,
+.content,
+.ads {
+     background-color: orange;
+     text-align: center;
+
+}
+
+nav,
+.ads {
+     width: 30%;
+     height: 50%;
+}
+
+.content {
+     width: 70%;
+     height: 50%;
+}
+
+footer {
+     background-color: yellow;
+     height: 70px;
+     width: 100%;
+     text-align: center;
+     text-align: center;
+}
